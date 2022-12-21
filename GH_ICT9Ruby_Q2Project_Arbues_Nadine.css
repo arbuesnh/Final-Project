@@ -1,0 +1,158 @@
+#div1,
+#div2,
+#div3,
+#div4 {
+  display: inline-block;
+  padding: 1%;
+  vertical-align: top;
+  
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+
+.heading{
+    font-family: 'Roboto', sans-serif;
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+    color:#582613;
+}
+
+/* unvisited link */
+a:link {
+    color:#582613;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color:#582613;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+a:hover {
+    color:#582613;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color:#582613;
+    text-decoration: none;
+  }
+
+.buybutton{
+    background-color: #E97232;
+    color: rgb(255, 255, 255);
+    border: 10px solid #E97232;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+    width: 300px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.buybutton:hover{
+    background-color:#BD5118;
+    border: 10px solid #BD5118;
+    transition: 0.7s;
+    }
+
+.checkout{
+  background-color: #E97232;
+  color: rgb(255, 255, 255);
+  border: 10px solid #E97232;
+  font-family: 'Roboto', sans-serif;
+  font-size:20px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.checkout:hover{
+  background-color:#BD5118;
+  border: 10px solid #BD5118;
+  transition: 0.7s;
+  }
+
+.font{
+  font-family: 'Roboto', sans-serif;
+  cursor: default;
+}
+
+.name{
+    font-size:20px;
+    color:#582613;
+    text-shadow: 2px 2px #ebebeb;
+}
+
+.category{
+    color:#E97232;
+}
+
+.price{
+    color:#582613;
+}
+
+img {
+    border-radius: 10%;
+  }
+
+.title{
+    font-size:30px;
+    letter-spacing: 5px;
+}
+
+.footer{
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size:30px;
+    font-weight: bold;
+  } 
+
+  .billing { 
+    margin-left:auto;
+    margin-right:auto;
+    border-spacing: 1em;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  input, select {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  input[type = "radio"]{
+    width: auto;
+    height: 20px;
+    margin-right: 20px;
+    margin-left: 0px;
+      display: inline-block;
+    vertical-align: bottom;
+  }
+
+  div.ext-box { display: table; width:100%;}
+div.int-box { display: table-cell; vertical-align: middle; }

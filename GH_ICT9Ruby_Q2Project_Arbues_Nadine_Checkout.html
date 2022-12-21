@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CHECKOUT - OBMC</title>
+    <link rel="stylesheet" href="GH_ICT9Ruby_Q2Project_Arbues_Nadine.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style type="text/css">
+       @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+       textarea {
+        resize: none;
+        }
+        .divmain {
+            width: 50%;
+            overflow: auto;
+            }
+        .table1 {background-color:#E97232; border: 1px; border-radius: 10px; border-collapse: collapse; border-style: solid; border-width: thin; border-color: #E97232;}
+        table tr#ROW1  {background-color:#E97232; color:white; text-align: left; font-weight: bold;}
+        table tr#ROW2  {background-color:white; color:rgb(0, 0, 0);}
+        table tr#ROW3  {background-color:rgb(243, 243, 243); color:rgb(0, 0, 0);}
+      </style>
+</head>
+<body class="font">
+
+    <center>
+        <br>
+        <table width="65%" style="font-weight: bold; table-layout: auto;">
+            <tr>
+                <td style="width: 60%;"><img src="https://cibo.ph/wp-content/uploads/2021/10/Untitled-1-300x94.png" width="167px" height="52px"></td>
+                <td align=left class="heading"><a href="index.html">Menu</a></td>
+                <td align=left class="heading"><a href="">About</a></td>
+                <td align=left class="heading"><a href="">Contact</a></td>
+                <td align=left class="heading"><a href="GH_ICT9Ruby_Q2Project_Arbues_Nadine_Cart.html">Cart</a></td>
+            </tr>
+        </table>
+        <br><br>
+    <div>
+        <div id="div1">
+            <form>
+            <div width="90%">
+                <p align="left">BILLING & DELIVERY</p>
+            <hr>
+                <table class="font" cellpadding="2" width="650px">
+                    <tr>
+                        <td>First Name</td>
+                        <td>Last Name</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" size="45" placeholder="Juan"></td>
+                        <td><input type="text"size="45" placeholder="Dela Cruz"></td>
+                    </tr>
+                    <tr>
+                        <td><br>Country / Reigion</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight:bolder;">Philippines</td>
+                    </tr>
+                    <tr>
+                        <td><br>Region/Province</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input list="region" name="regions">
+                            <datalist id="region">
+                            <option value="Metro Manila">
+                            <option value="Cavite">
+                            <option value="Rizal">
+                            </datalist>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><br>City/Municipality</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input list="cities" name="cities">
+                            <datalist id="cities">
+                            <option value="Quezon City">
+                            <option value="Bacoor">
+                            <option value="Cainta">
+                            </datalist>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><br>Postcode / ZIP</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input list="zip" name="zip">
+                            <datalist id="zip">
+                            <option value="1108">
+                            <option value="1900">
+                            <option value="4102">
+
+                            </datalist>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><br>Street Address</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="text" size="50" placeholder="House Number and Street Name"></td>
+                    </tr>
+                    <tr>
+                        <td><br>Phone</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="text" size="50"></td>
+                    </tr>
+                    <tr>
+                        <td><br>Email Address</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="text" size="50" placeholder="House Number and Street Name"></td>
+                    </tr>
+                </table>
+            </div>
+            <br><br>
+            <div>
+                <p align="left">ADDITIONAL INFORMATION</p>
+                <hr>
+                <table class="font" cellpadding="2" width="100%">
+                    <tr>
+                        <td align="left"><br>Order notes (optional)</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><textarea name="comments" id="comments" placeholder="Notes about your order, e.g. special notes for delivery" rows="10" cols="94" class="font"></textarea></td>
+                    </tr>
+                </table> 
+            </div>
+            </form>
+        </div>
+        <!--SLAY-->
+        <div id="div2">
+            <form>
+            <div>
+                <p align="left">YOUR ORDER</p>
+            <hr>
+                <table cellpadding="30" class="table1 font" width="100%">
+                    <tr id="ROW1">
+                        <th>PRODUCT</th>
+                        <th>SUBTOTAL</th>
+                    </tr>
+                    <tr id="ROW2">
+                        <td>POTATO CHIPS.<br>PATATINE FRITTE.MAIONESE. - LA FAMIGLIA <br>x 1</td>
+                        <td>₱489.00</td>
+                    </tr>
+                    <tr id="ROW2">
+                        <td>BACON. SAUTÉED<br>MUSHROOMS. LINGUINE<br>ALLA GHIOTTA.- SOLO<br>x 1</td>
+                        <td>₱539.00</td>
+                    </tr>
+                    <tr id="ROW2">
+                        <td>GELATO PINT. - SOLO<br>x 1</td>
+                        <td>₱669.00</td>
+                    </tr>
+                    <tr id="ROW3">
+                        <td>SUBTOTAL</td>
+                        <td>₱1697</td>
+                    </tr>
+                    <tr id="ROW3">
+                        <td>DELIVERY</td>
+                        <td>Flate Rate: ₱200</td>
+                    </tr>
+                    <tr id="ROW3">
+                        <td>TOTAL</td>
+                        <td>₱1897</td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <div>
+                <table class="font" cellpadding="2" width="100%">
+                    <tr>
+                        <td align="left"><br>Delivery Date</td>
+                    </tr>
+                    <tr>
+                        <td><input type="date" id="date"></td>
+                    </tr>
+                    <tr>
+                        <td align="left"><br>Time Slot</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input list="time" name="time">
+                            <datalist id="time">
+                                <option value="11:30 AM - 11:45 AM ">
+                                <option value="03:00 PM - 03:15 PM  ">
+                                <option value="06:00 PM - 06:15 PM  ">
+                            </datalist>
+                        </td>
+                    </tr>
+                </table> 
+                <br>
+                <table class="font" width="100%" style="text-align:left;" cellpadding="10">
+                    <tr>
+                        <td colspan="2"><input type="radio" name="paymentmethod">Cash on delivery</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="paymentmethod">Credit Card via PayMongo</td>
+                        <td align="right"><img src="https://media.discordapp.net/attachments/998269404255092747/1054935640011178054/visa.png" width="100px"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="paymentmethod">GCash via PayMongo</td>
+                        <td align="right"><img src="https://cibo.ph/wp-content/plugins/wc-paymongo-payment-gateway/assets/images/gcash.png" width="100px"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="paymentmethod">GrabPay via PayMongo</td>
+                        <td align="right"><img src="https://media.discordapp.net/attachments/998269404255092747/1054935531051552829/grab.png" width="100px"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="paymentmethod">Maya via PayMongo</td>
+                        <td align="right"><img src="https://media.discordapp.net/attachments/998269404255092747/1054935440056143962/maya.png" width="100px"></td>
+                    </tr>
+                    <tr>
+                        <td align="left" colspan="2">Your personal data will be used to process your order, support your experience<br> throughoutthis website, and for other purposes described in our privacy policy.</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center"><a href="GH_ICT9Ruby_Q2Project_Arbues_Nadine_Checkout.html"><button class="checkout">PLACE ORDER</button></a></td>
+                    </tr>
+                </table> 
+                
+            </div>
+
+            </form>
+        </div>
+    </div>
+    </center>
+</body>
+</html>
